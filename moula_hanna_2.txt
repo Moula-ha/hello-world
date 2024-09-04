@@ -40,17 +40,25 @@ Answer: notepad moula_hanna_2.txt
 
 7. Answer questions 1 to 6 inside this file beneath every question. Then stage the changes and commit to branch bonus_2 with the commit message "Answer questions 1 to 6" and write that command as an answer to question 7.
 
+Answer:git add moula_hanna_2.txt 
+git commit -m "Answer questions 1 to 6"
 
 
 8. Get the status
-
+Answer: git status
 
 
 9. After writing the command in this file for step 8, stage the changes again and commit again, this time with commit message "Answer question 8"
 
-
+Answer: git add moula_hanna_2.txt
+        git commit -m "Answer question 8"
 
 10. Write the command to push bonus_2 to your repo, save this file, then execute the actual push command that you wrote below, then verify on GitHub whether all your changes are there, then do a pull request. The answer to this question is the push command.
+
+git push origin bonus_2
+git add moula_hanna_2.txt
+git commit -m "Write push command for bonus_2"
+git push origin bonus_2 (this command is answer to question 10)
 
 
 
